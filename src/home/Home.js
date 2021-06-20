@@ -1,7 +1,12 @@
 import React, { useState} from "react";
 import axios from "axios";
 
+const APP_KEY = process.env.REACT_APP_API_KEY;
+const APP_ID = process.env.REACT_APP_API_ID;
 
+console.log(APP_KEY, APP_ID);
+
+const mealTypes = ["Breakfast", "Lunch", "Dinner", "Snack", "Teatime"];
 
 const Home = () => {
 
