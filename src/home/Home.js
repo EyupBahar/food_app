@@ -9,6 +9,37 @@ const Home = () => {
 }
 
 const getData = async () => {
-    if (query !== )
-}
+    if (query !== "") {
+        const result = await axios.get(url);
+        if (result.status === 200) {
+            setRecipes(result.data.hits);
+        }
+     } else {
+         alert("Please fill the form!");
+     }
+};
+
+return (
+    <div>
+      <Header
+        setQuery={setQuery}
+        query={query}
+        getData={getData}
+        mealTypes={mealTypes}
+        setMeal={setMeal}
+        meal={meal}
+      />
+      {recipes ? (
+        <MainContainer>
+          {recipes?.map((recipe, index) => (
+            <RecipeCard key={index} recipe={recipe?.recipe} />
+          ))}
+        </MainContainer>
+      ) : (
+        <ImgDiv>
+          <HomeImg src={homeSvg} />
+        </ImgDiv>
+      )}
+    </div>
+  );
 export default Home;
