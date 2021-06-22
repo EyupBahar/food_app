@@ -17,7 +17,7 @@ const Navbar = () => {
       <Menu isOpen={isOpen}>
         <MenuLink to="/about">About</MenuLink>
         <MenuLink
-          to={{ pathname: "https://github.com/edwardBenedict" }}
+          to={{ pathname: "https://github.com/C7204-OMER" }}
           target="_blank"
           rel="noopener noreferrer"
         >
