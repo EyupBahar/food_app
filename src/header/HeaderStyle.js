@@ -22,3 +22,31 @@ export const FormContainer = styled.form`
   border-radius: 3px;
   margin: 20px;
 `;
+
+export const FoodInput = styled.input`
+  height: 3rem;
+  width: 15rem;
+  border: none;
+  border-radius: 3px;
+  outline: none;
+  text-indent: 10px;
+  margin: 5px;
+  font-size: 2rem;
+`;
+
+export const Button = styled.button`
+  background-color: #e1f1dd;
+  padding: 5px;
+  outline: none;
+  height: 3rem;
+  border: none;
+  margin: 5px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 2rem;
+
+  &:hover {
+    background-color: #00adb5;
+    transition: all 0.3s ease-in;
+    border: 1px solid white;
+  }
