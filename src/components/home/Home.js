@@ -4,6 +4,7 @@ import axios from "axios";
 import { HomeImg, ImgDiv, MainContainer } from "./homeStyle";
 import RecipeCard from "./RecipeCard";
 import homeSvg from "../../assets/home.svg";
+import "./homeStyle";
 
 const APP_KEY = process.env.REACT_APP_API_KEY;
 const APP_ID = process.env.REACT_APP_API_ID;
