@@ -1,5 +1,5 @@
 import React from "react";
-import { RecipeCard, RecipeHeader, RecipeImage, Button } from "./homeStyle";
+import { RecipeCard, RecipeHeader, RecipeImage, Button } from "./HomeStyle";
 import { useHistory } from "react-router-dom";
 
 const RecipeCardComp = ({ recipe }) => {

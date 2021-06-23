@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Header from "../header/Header";
 import axios from "axios";
-import { HomeImg, ImgDiv, MainContainer } from "./homeStyle";
+import { HomeImg, ImgDiv, MainContainer } from "./HomeStyle";
 import RecipeCard from "./RecipeCard";
 import homeSvg from "../../assets/home.svg";
 
