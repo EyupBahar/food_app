@@ -50,3 +50,4 @@ export const Button = styled.button`
     transition: all 0.3s ease-in;
     border: 1px solid white;
   }
+`;
