@@ -1,6 +1,6 @@
 import React from "react";
 import Form from "./Form";
-import { HeaderContainer, MainHeader } from "./headerStyle";
+import { HeaderContainer, MainHeader } from "./HeaderStyle";
 
 const Header = ({ setQuery, query, getData, mealTypes, meal, setMeal }) => {
   return (

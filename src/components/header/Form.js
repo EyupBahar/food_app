@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, FoodInput, FormContainer, Select } from "./headerStyle";
+import { Button, FoodInput, FormContainer, Select } from "./HeaderStyle";
 
 const Form = ({ setQuery, query, getData, mealTypes, meal, setMeal }) => {
   const handleSubmit = (e) => {
