@@ -51,3 +51,11 @@ export const Button = styled.button`
     border: 1px solid white;
   }
 `;
+export const Select = styled.select`
+  border-radius: 3px;
+  margin: 5px;
+  padding: 5px;
+  height: 3rem;
+  border: none;
+  font-size: 2rem;
+`;
