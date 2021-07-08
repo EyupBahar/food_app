@@ -1,7 +1,7 @@
 import React from "react";
 import { Button, FoodInput, FormContainer, Select } from "./HeaderStyle";
 
-const Form = ({ setQuery, query, getData, mealTypes, meal, setMeal }) => {
+const Form = ({ setQuery, query, getData, mealTypes, setMeal, meal }) => {
   const handleSubmit = (e) => {
     e.preventDefault();
     getData();
@@ -23,7 +23,8 @@ const Form = ({ setQuery, query, getData, mealTypes, meal, setMeal }) => {
       >
         {mealTypes?.map((item) => (
           <option value={item.toLowerCase()} key={item}>
-            {item}
+            {" "}
+            {item}{" "}
           </option>
         ))}
       </Select>
