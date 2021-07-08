@@ -6,7 +6,7 @@ import {
   OtherPart,
   ImgContainer,
   IngContainer,
-} from "./DetailStyle";
+} from "./detailsStyle";
 import dietSvg from "../../assets/diet.svg";
 
 const Details = (props) => {
