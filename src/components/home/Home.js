@@ -18,9 +18,8 @@ const Home = () => {
   // const KEY = process.env.KEY;
   // const ID = process.env.ID;
 
-  const url = `https://api.edamam.com/search?q=${query}&app_id=${ID}&app_key=${KEY}&mealType=${"breakfast"}`;
-  // const url = `https://api.edamam.com/search?q=${query}&app_id=${APP_ID}&app_key=${APP_KEY}&mealType=${meal}`;
-  
+  const url = `https://api.edamam.com/search?q=${query}&app_id=${ID}&app_key=${KEY}&mealType=${meal}`;
+ 
   const getData = async () => {
     console.log(ID,KEY);
     if (query !== "") {
